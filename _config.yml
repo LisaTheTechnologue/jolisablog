@@ -4,7 +4,7 @@ tagline:      'Where journey begins'
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog for technology, hobbies and blogging.
 baseurl:      "jolisablog" # the subpath of your site, e.g. /blog . Need to leave blank to run locally
-url:          "" # the base hostname & protocol for your site, e.g. http://example.com
+url:          "https://lisathetechnologue.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 paginate:            5
 permalink:           pretty
 
