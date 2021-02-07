@@ -99,7 +99,7 @@ ul.posts li span {
 
 #markdown-toc {
     border: 1px solid #aaa;
-    padding: 1.5em;
+    padding: 1.5em 3em 1.5em 3em;
     list-style: decimal;
     display: inline-block;
 }
