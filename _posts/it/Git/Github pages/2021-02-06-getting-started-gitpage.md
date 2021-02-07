@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Table of Contents with Jekyll"
-date:   2020-02-03 20:00:00 -0500
+title:  "Getting started with Git Pages"
+date:   2020-03-03 20:00:00 -0500
 categories: [it,Git, Github pages]
 tags: [IT, git, gh-pages]
 ---
