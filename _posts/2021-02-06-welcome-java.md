@@ -2,8 +2,6 @@
 layout: post
 title:  "Second Java post"
 date:   2020-02-03 20:00:00 -0500
-categories: [it,java]
-tags: [IT, java, basics]
 toc: true
 ---
 
