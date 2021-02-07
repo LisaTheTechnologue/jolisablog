@@ -3,7 +3,7 @@ title:        Jolisa's Blog
 tagline:      'Where journey begins'
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog for technology, hobbies and blogging.
-baseurl:      "" # the subpath of your site, e.g. /blog . Need to leave blank to run locally
+baseurl:      "jolisablog" # the subpath of your site, e.g. /blog . Need to leave blank to run locally
 url:          "" # the base hostname & protocol for your site, e.g. http://example.com
 paginate:            5
 
