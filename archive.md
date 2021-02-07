@@ -15,7 +15,7 @@ permalink: /archives/
     <ul>
     {% for post in month.items %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>
