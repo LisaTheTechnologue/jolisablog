@@ -1,0 +1,25 @@
+#Setup
+title:        Jolisa's Blog
+tagline:      'Where journey begins'
+description: >- # this means to ignore newlines until "baseurl:"
+  A personal blog for technology, hobbies and blogging.
+baseurl:      "" # the subpath of your site, e.g. /blog . Need to leave blank to run locally
+url:          "" # the base hostname & protocol for your site, e.g. http://example.com
+paginate:            5
+
+# About/contact
+author:
+  name:             Jolisa Tran  
+  email:            jolisa.chan.store@gmail.com  
+  github_username:  LisaTheTechnologue
+  github_repo:      https://github.com/LisaTheTechnologue
+  facebook:         https://www.facebook.com/lisa.chan.toronto
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-toc
+
+# Custom vars
+google_analytics_id: #UA-XXXX-Y

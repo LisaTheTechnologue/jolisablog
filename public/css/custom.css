@@ -1,0 +1,105 @@
+/*sidebar*/
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.sidebar-logo {
+    margin: 10% 10%;
+    background: url(../favicon_io/logo-180.png) no-repeat;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    display: block;
+}
+
+.sidebar-name {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+.sidebar-githubname {
+    font-weight: 100;
+    font-size: 80%;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.sidebar-nav {
+    margin-top: 10%;
+}
+
+.sidebar-nav-item {
+    color: rgba(1, 1, 1, 0.8);
+}
+
+.sidebar-sns a {
+    padding: 5px;
+    display: inline-block;    
+}
+
+/*tags page*/
+ul.posts {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+ul.posts li span {
+    color: silver;
+}
+
+.tag-box {
+    list-style: none;
+    margin: 0;
+    padding: 4px 0;
+    overflow: hidden;
+}
+
+.tag-box.inline li {
+    float: left;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 2.5;
+}
+
+.tag-box a {
+    padding: 4px 6px;
+    margin: 2px;
+    background-color: #e6e6e6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.tag-box a span {
+    vertical-align: super;
+    font-size: 10px;
+    font-size: 0.625rem;
+}
+
+/* ToC */
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
+}
