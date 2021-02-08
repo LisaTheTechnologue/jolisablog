@@ -89,12 +89,17 @@ ul.posts li span {
 
 /* ToC */
 #markdown-toc::before {
-    content: "Contents";
+    content: "Table of Contents";
     font-weight: bold;
-}
+    font-size: 35px;
+} 
 
 #markdown-toc ul {
     list-style: decimal;
+}
+
+#markdown-toc ul li{
+    list-style: lower-alpha;
 }
 
 #markdown-toc {
