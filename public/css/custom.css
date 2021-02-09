@@ -118,3 +118,7 @@ ul.posts li span {
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
+
+.post-image {
+    width : 300px
+}
